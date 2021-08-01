@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: skyblue;
+}
+h1{
+    color: black;
+}
+.container{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     margin-top: 10px;
+}
+.first-div{
+    height: 540px;
+    width: 70%;
+    background-color: teal;
+}
+.first-div h2{
+    margin-top: 10px;
+    background-color: teal;
+    color: black;
+    height: 40px;
+}
+.second-div{
+    width: 30%;
+    height: 540px;
+    background-color: pink;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+}
+.second-div p{
+    font-size: 80px;
+}
+#guessDiv{
+    height: 30px;
+    width: 120px;
+    background-color: pink;
+   margin-left: 44%;
+   font-size: 30px;
+   margin-bottom: 10px;
+   display: none;
+}
+.btn{
+    height: 120px;
+    width: 120px;
+    border: none;
+    margin: 15px;
+    border-radius: 50%;
+    font-size: 80px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+.flex-item{
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    display: none;
+}
+.start-div{
+    margin-top: 120px;
+    display: block;
+}
+.start-btn{
+    height: 120px;
+    width: 120px;
+    background-color: pink;
+    border: none;
+    margin: 15px;
+    font-size: 30px;
+    border-radius: 350%;
+    box-shadow: 8px 8px;
+}
+#reset{
+    display: none;
+    margin-left: 40%;
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: pink;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.result{
+    background-color: yellow;
+    margin-top: 120px;
+}
+#heading{
+    font-size: 50px;
+    color: black;
+}
+#result-para{
+    font-size: 80px;
+    font-weight: 500;
+    color: black;
+}
+.back-btn{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(236, 92, 92);
+    border: none;
+    margin: 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 8px 8px;
+}
+.result-div{
+    height: 540px;
+    width: 100%;
+    padding-top: 120px;
+    display: none;
+}
+hr{
+    background-color: black;
+    width: 220px;
+    height: 2px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.timeout{
+    height: 540px;
+    width: 100%;
+    font-size: 40px;
+    padding-top: 180px;
+    display: none;
+    background-color: skyblue;
+}

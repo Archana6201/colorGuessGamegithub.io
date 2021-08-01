@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>COLOR GAME</title>
+</head>
+
+<body>
+    <h1>THE COLOR GAME</h1>
+    <div class="container">
+        <div class="first-div">
+            <h2>GUESS THE COLOR</h2>
+            <div class="start-div" id="start-btn">
+                <h1>LET'S PLAY!!</h1>
+                <button class="start-btn" onclick="start()">START</button>
+            </div>
+            <div id="guessDiv">
+               
+            </div>
+            <div class="flex-item" id="flex-boxes">
+                <div id="btn1"><button class="btn" id="btn-box1" onclick="box1()"></button></div>
+                <div id="btn2"><button class="btn" id="btn-box2" onclick="box2()"></button></div>
+                <div id="btn3"><button class="btn" id="btn-box3" onclick="box3()"></button></div>
+                <div id="btn4"><button class="btn" id="btn-box4" onclick="box4()"></button></div>
+                <div id="btn5"><button class="btn" id="btn-box5" onclick="box4()"></button></div>
+            </div>
+            <div class="result-div" id="show-result">
+                <h1 id="heading"></h1>
+                 <p id="result-para"></p>
+                 <button id="stop-btn" class="back-btn" onclick="goBack()">GO BACK</button>
+            </div>
+            <div class="timeout" id="timeout">
+                <h1>TIME'S UP!!</h1>
+            </div>
+        </div>
+        <div class="second-div" id="secondDiv">
+            <h2 id="timer">Time Start</h2>
+            <p id="timer-para">5</p>
+            <hr>
+             <h2>SCORE</h2>
+              <p id="para">0</p>
+              <button id="reset" onclick="window.location.reload()">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html>
